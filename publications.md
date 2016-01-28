@@ -7,10 +7,10 @@ tags: [publications]
 
 ### Published papers
 
-**On the Challenges of Physical Implementations of RBMs**
-[(pdf)](http://www.aaai.org/ocs/index.php/AAAI/AAAI14/paper/view/8608/8559)  
-Dumoulin, V., Goodfellow, I. J., Courville, A. and Bengio, Y.  
-Proceedings of the 28th AAAI Conference on Artificial Intelligence
+**Image Superresolution Using Support Vector Regression**
+[(pdf)](http://www.znu.ac.ir/data/members/fazli_saeid/DIP/Paper/ISSUE6/04200763.pdf)
+Karl S Ni, Truong Q Nguyen
+IEEE Transactions on Image Processing, Volume 16,6, June 2006
 
 **A Fast Model for the Reconstruction of Spectral Solar Irradiance in the Near-
 and Mid-Ultraviolet.** [(pdf)](http://link.springer.com/content/pdf/10.1007%2Fs11207-012-0019-4.pdf)  
