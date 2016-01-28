@@ -1,6 +1,12 @@
-# Anything2Vec
-
-## 2Vec or Not 2Vec
+---
+layout: post-no-feature
+title: Anything2Vec
+description: "An in-depth look into the embedding world and how word2vec is really fits the NN mold"
+categories: articles
+comments: true
+published: true
+date: 2015-11-10
+---
 
 This might be old news to you, but if you're considering the use of word embeddings, our suggestion: just take the plunge. We've read a "few" studies documenting their effectiveness, not the least of which is our personal favorite:
 
