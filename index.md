@@ -9,9 +9,8 @@ keywords: QTL, Python, applied statistics
   <div class="navbar-inner">
       <ul class="nav">
           <li><a href="{{ BASE_PATH }}/assets/broman_cv.pdf">cv</a></li>
-          <li><a href="https://github.com/kbroman">github</a></li>
-          <li><a href="http://kbroman.wordpress.com">blog</a></li>
-          <li><a href="https://twitter.com/kwbroman">@kwbroman</a></li>
+          <li><a href="https://github.com/karllab41">github</a></li>
+          <li><a href="http://lab41.com">blog</a></li>
       </ul>
   </div>
 </div>
