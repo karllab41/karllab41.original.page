@@ -1,18 +1,15 @@
-title:            Vincent Dumoulin
-tagline:          Personal website of Vincent Dumoulin
-description:      Personal website of Vincent Dumoulin
+title:            Karl Ni
+tagline:          Personal website of Karl Ni
+description:      Personal website of Karl Ni
 
 # Owner/author information
 owner:
-  name:           Vincent Dumoulin
+  name:           Karl Ni
   avatar:         avatar.png
   bio:            "WRITEME"
-  email:          vincent.dumoulin@umontreal.ca
-  twitter:        dumoulinv        
-  github:         vdumoulin       
-  disqus:         vdumoulin
-  location:       "Montreal, QC"
-  # Plug in your disqus shortname!
+  email:          kni@iqt.org
+  github:         karllab41
+  location:       "Menlo Park, CA"
 
 tools:
   standards:      "HTML, SCSS, Jekyll"
@@ -31,7 +28,7 @@ links:
     url: /feed
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Los_Angeles
 future:      true
 highlighter: pygments
 markdown:    kramdown
