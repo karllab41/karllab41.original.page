@@ -1,11 +1,15 @@
-<!doctype html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ page.description }}">
 <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 
-{% include graphs.html %}
+
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 120  }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
 
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
@@ -17,6 +21,7 @@
 <!-- Type -->
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+<link href="//fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700" rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ site.url }}/assets/css/entypo.css" media="all">
 
 <!-- In order to use Calendas Plus, you must first purchase it. Then, create a font-face package using FontSquirrel.
@@ -37,6 +42,8 @@
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
+<!-- MathJax -->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
 
 <!-- Icons -->
 <!-- 16x16 -->

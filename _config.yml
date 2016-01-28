@@ -1,41 +1,34 @@
-title:            Balzac
-tagline:          A beautiful theme.
-description:      Describe your website.
-canonical: http://jekyll.gtat.me
+title:            Vincent Dumoulin
+tagline:          Personal website of Vincent Dumoulin
+description:      Personal website of Vincent Dumoulin
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Vincent Dumoulin
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
-  disqus:         balzac
-  location:       "Buffalo, NY"
+  bio:            "WRITEME"
+  email:          vincent.dumoulin@umontreal.ca
+  twitter:        dumoulinv        
+  github:         vdumoulin       
+  disqus:         vdumoulin
+  location:       "Montreal, QC"
   # Plug in your disqus shortname!
 
 tools:
   standards:      "HTML, SCSS, Jekyll"
   software:       "git"
 
-# Open Graph customization
-opengraph:
-  locale:           en_US
-
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about
-  - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-    external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
-    external: true
+  - title: Publications
+    url: /publications
+  - title: Software
+    url: /software
+  - title: RSS
+    url: /feed
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
@@ -48,7 +41,7 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: true
 
   coderay:
     coderay_line_numbers:
