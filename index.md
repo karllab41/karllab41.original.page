@@ -1,8 +1,8 @@
 ---
 layout: frontpage
-title: Karl Broman
-description: Karl Broman is Professor in Biostatistics and Medical Informatics at University of Wisconsin - Madison; research in statistical genetics
-keywords: Broman, QTL, R/qtl, quantitative trait loci, statistics, statistical genetics, recombination
+title: Karl Ni
+description: Karl Ni is a Research Scientist at Lab41; 
+keywords: QTL, Python, applied statistics
 ---
 
 <div class="navbar">
