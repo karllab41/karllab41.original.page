@@ -5,7 +5,7 @@ title: About Me
 tags: [about]
 ---
 
-![Vincent Dumoulin]({{ site.url }}/images/me.jpg)
+![Karl Ni]({{ site.url }}/images/me.jpg)
 
 I'm currently a research data scientist at [Lab41](http://lab41.org/) at
 In-Q-Tel.
