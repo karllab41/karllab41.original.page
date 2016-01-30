@@ -8,7 +8,7 @@ tags: [publications]
 ### Relevant papers on current research
 
 **Mapping Images to Sentiment Adjective Noun Pairs with Factorized Neural Nets** 
-[(pdf)](http://arxiv.org/pdf/1511.06838v1)  
+[(pdf)](http://arxiv.org/pdf/1511.06838v1)
 Takuya Narihira, Damian Borth, Stella X. Yu, Karl Ni, Trevor Darrell
 on archive: arXiv:1511.06838, November 2015
 
