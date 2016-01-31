@@ -5,7 +5,7 @@ title: Academics
 tags: [publications]
 ---
 
-### Relevant papers on current research
+### Selected publications
 
 **Mapping Images to Sentiment Adjective Noun Pairs with Factorized Neural Nets**  [(pdf)](http://arxiv.org/pdf/1511.06838v1)
 Takuya Narihira, Damian Borth, Stella X. Yu, Karl Ni, Trevor Darrell
@@ -57,13 +57,10 @@ I enjoy helping out the computer vision community in whatever capacity they woul
 	* Conferences: ICIP, ICASSP, HPEC
 	* IEEE Transactions: TSP, TIP, TNN, PAMI
 	* Elsevier Journals
-
-- Workshop Organization
+* Workshop Organization
 	* [Supercomputing 2015](http://ornlcda.github.io/MLHPC2015/programcommittee.html), **ML on HPC** Programming Committee
 	* [ACM Multimedia 2015](http://www.mmcommons.org/instigators) **Multimedia Commons** Organizing Committee
-
 * IEEE San Diego Chapter Guest Lecture, November 2015
-
 * IEEE Boston Chapter Secretary, 2009-2012
 
 ### Patents
