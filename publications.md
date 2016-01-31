@@ -5,7 +5,7 @@ title: Academics
 tags: [publications]
 ---
 
-### Selected publications
+## Selected publications
 
 Here's a look at what I've been up to recently. My full publications list is on my [CV](https://drive.google.com/file/d/0B_jR_71Z9vd_bURDYW5LbjZoZEE/view?usp=sharing). If you'd like to know more about any of these works, feel free to contact me!
 
@@ -26,7 +26,7 @@ Karl Ni and Ryan Prenger,
 GlobalSIP, 2013
 
 
-### Invited lectures
+## Invited lectures
 
 Either through my work position, friends, citations, or word of mouth, I've had the privilege of speaking at some interesting venues with lots of great people. Here are some of the academic talks that I've given.
 
@@ -53,7 +53,7 @@ Sampling and Reconstruction: Application and Advances,
 *Complex Function Estimation using a Stochastic Classification/Regression Framework: Specific Applications to Image Superresolution*, August 2007
 
 
-### Community service
+## Community service
 
 I enjoy helping out the computer vision community in whatever capacity they would have me! That's why I've involved myself with IEEE societies. Here are some of the things that I've felt humbled to help out with:
 
@@ -67,7 +67,7 @@ I enjoy helping out the computer vision community in whatever capacity they woul
 * IEEE San Diego Chapter Guest Lecture, November 2015
 * IEEE Boston Chapter Secretary, 2009-2012
 
-### Patents
+## Patents
 
 **Fast Feature Selection for Robust Matched Filter Classification**, 
 Disclosed to Massachusetts Institute of Technology. June 2012
