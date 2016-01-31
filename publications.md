@@ -17,7 +17,7 @@ on archive: arXiv:1502.03409, February 2015
 
 **Image Superresolution Using Support Vector Regression** [(pdf)](http://www.znu.ac.ir/data/members/fazli_saeid/DIP/Paper/ISSUE6/04200763.pdf)
 Karl S Ni, Truong Q Nguyen
-IEEE Transactions on Image Processing, Volume 16,6, June 2006
+IEEE Transactions on Image Processing, June 2006
 
 **Learning Features in Deep Learning Architectures with Unsupervised Kernel k-Means** 
 Karl Ni and Ryan Prenger
