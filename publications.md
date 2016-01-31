@@ -21,7 +21,7 @@ IEEE Transactions on Image Processing, June 2006
 
 **Learning Features in Deep Learning Architectures with Unsupervised Kernel k-Means** 
 Karl Ni and Ryan Prenger
-Proceedings of the 1st IEEE Global Conference on Signal and Information Processing, 2013, Austin, TX, GlobalSIP-2013
+GlobalSIP, 2013
 
 
 ### Invited lectures
