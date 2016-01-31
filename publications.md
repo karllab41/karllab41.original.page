@@ -19,6 +19,11 @@ on archive: arXiv:1502.03409, February 2015
 Karl S Ni, Truong Q Nguyen
 IEEE Transactions on Image Processing, Volume 16,6, June 2006
 
+**Learning Features in Deep Learning Architectures with Unsupervised Kernel k-Means** 
+Karl Ni and Ryan Prenger
+Proceedings of the 1st IEEE Global Conference on Signal and Information Processing, 2013, Austin, TX, GlobalSIP-2013
+
+
 ### Invited lectures
 
 **Center for Advanced Signal and Image Sciences (CASIS)**:
@@ -60,4 +65,14 @@ I enjoy helping out the computer vision community in whatever capacity they woul
 * IEEE San Diego Chapter Guest Lecture, November 2015
 
 * IEEE Boston Chapter Secretary, 2009-2012
+
+### Patents
+
+**Fast Feature Selection for Robust Matched Filter Classification**, 
+Disclosed to Massachusetts Institute of Technology. June 2012
+Karl Ni, Katherine Bouman, Nadya Bliss. 
+
+**Temporal error concealment for video communications**
+Invention disclosed to QUALCOMM, United States Patent, Publication# 20060133495, Filed 12/22/2004, Issued 6/22/2006.
+Yan Ye, Gokce Dane, Yen-Chi Lee, Mingchang Tsai, Nien-Chung. Feng, and Karl Ni, 
 
