@@ -22,10 +22,6 @@ links:
     url: /about
   - title: Academics
     url: /publications
-  - title: Demos
-    url: /software
-  - title: RSS
-    url: /feed
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
