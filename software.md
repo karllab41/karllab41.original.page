@@ -11,10 +11,21 @@ tags: [software]
 
 In my previous life, I'd worked on exploiting 3D reconstructions of city-cized models. The idea behind that is to get images in the wild (for example, scrape FlickR, YouTube, or whatever), and organize them by using feature extractors and matching those features with each other. What that will do is give you a 3D reconstruction:
 <html>
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CJkRyo-u1_U" frameborder="0" allowfullscreen></iframe>
+</center>
 </html>
 
 Once you've reconstructed the city with images, you can align that with other interesting 3D point clouds from other modalities. For example, you can take a LiDAR point cloud, align it with the picture point cloud, and voila! You get this:
 <html>
+<center>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/oc1rTzwXbc8" frameborder="0" allowfullscreen></iframe>
+</center>
+</html>
+
+If you've done everything right, you should be able take any new photo, and then align that new photo with the point cloud to figure out where you are!
+<html>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wPtGyScg8SQ" frameborder="0" allowfullscreen></iframe>
+</center>
 </html>
