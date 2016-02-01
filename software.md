@@ -9,6 +9,4 @@ tags: [software]
 
 **Geo-registration with structure from motion**
 
-<iframe width="420" height="345"
-src="https://www.youtube.com/watch?v=CJkRyo-u1_U&feature=youtu.be">
-</iframe>
+[![Reconstruction of MIT Campus](http://img.youtube.com/vi/iMCTfG2Iqgo/0.jpg)](http://www.youtube.com/watch?v=iMCTfG2Iqgo)
