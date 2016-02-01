@@ -5,10 +5,10 @@ title: Software Contributions
 tags: [software]
 ---
 
-**Pylearn2** [(website)](deeplearning.net/software/pylearn2/)
-             [(github)](https://github.com/lisa-lab/pylearn2)  
-A machine learning prototyping library based on Theano
+## Projects
 
-**Theano** [(website)](deeplearning.net/software/theano/)
-           [(github)](https://github.com/Theano/Theano)  
-A Python library for compiling mathematical expressions
+**Geo-registration with structure from motion**
+
+<iframe width="420" height="345"
+src="https://www.youtube.com/watch?v=CJkRyo-u1_U&feature=youtu.be">
+</iframe>
