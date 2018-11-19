@@ -1,135 +1,110 @@
-# Balzac
+# al-folio
 
-This is forked from [minimal mistakes](http://mademistakes.com). I needed some type of framework to build off as I have no experience with Jekyll. Michael set up an awesome dev environment for this which really helped speed up my progress. He also already wrote up an incredibly comprehensive readme.md so I basically copied all of it and replaced what was necessary. The design itself is my own and I cannot let you sell this or tweak the design for resale, unless I you [contact me](mailto:cole@coletownsend.com).
+[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
+[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
 
-If you'd like give me credit somewhere on your blog or tweet a shout out to
-[@twnsndco](https://twitter.com/twnsndco), that would be pretty sweet. 
+[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/al-folio/)
 
-If you feel like donating — [Give it a thought.](http://gtat.me/balzac/donate)
+Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
+Since then, it got a full re-write of the styles and many additional cool features.
+The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/al-folio/).
 
----
+## Getting started
 
+For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
-![Balzac for Jekyll](http://cl.ly/Qdzo/Screen%20Shot%202013-08-05%20at%205.35.11%20PM.jpg)
-![Balzac for Jekyll](http://cl.ly/Qdyh/Screen%20Shot%202013-08-05%20at%205.30.01%20PM.jpg)
+### Installation
 
-## Features:
-- flexible, uses max-width for responsive goodness
-- responsive drop down menu
-- retina images using @2x
-- post loop in the footer showing 3 latest posts
-- custom portfolio page for case studies
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first fork the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
-## Basic Setup
-
-1. [Install Jekyll](http://jekyllrb.com) if you haven't already.
-2. Download this bad boy.
-3.  Fork the [Balzac repo](http://github.com/coletownsend/balzac-for-jekyll/)
-4. Twerk it out so it's just for you.
-5.  ???
-6.  Profit
-
-## [Preview the Theme](http://jekyll.gtat.me)
-=======
- [Preview the Theme](http://jekyll.gtat.me)
- 
-``` bash
-balzac-for-jekyll/
-├── _includes
-|    ├── footer.html  //site footer
-|    ├── head.html  //site head
-|    ├── head-dark.html  //dark site head for light pages
-├── _layouts
-|    ├── home.html  //homepage layout
-|    ├── page.html  //page layout
-|    ├── post-index.html  //post listing layout
-|    └── post.html  //post layout
-|    ├── post-no-feature.html  //feature image-less post layout
-├── _posts
-├── assets
-|    ├── css  //preprocessed less styles. good idea to minify
-|    ├── img  //images and graphics used in css and js
-|    ├── js
-|    |   ├── main.js  //jQuery plugins and settings
-|    |   └── vendor  //all 3rd party scripts
-|    └── sass 
-├── images  //images for posts and pages
-├── about.md  //about page
-├── articles.md  //lists all posts from latest to oldest
-└── index.md  //homepage. lists 5 most recent posts
+```bash
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
 ```
 
-# Customization
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
+Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
 
-## _config.yml
+```bash
+$ ./bin/deploy [--user]
+```
+By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
+Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
 
-Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out `url` or else you will get a bunch of broken links because they are absolute and prefixed with `{{ site.url }}` in the various `_includes` and `_layouts`. Just remember to uncomment `url` when building for deployment or pushing to **gh-pages**...
+**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
 
-### Owner/Author Information
-
-Change your name, bio, Twitter url, email, Dribbble URL, etc.
-
-
-### Top Navigation Links
-
-Edit page/post titles and URLs to include in the site's navigation. For external links add `external: true`.
-
-``` yaml
-# sample top navigation links
-links:
-  - title: About Page
-    url: /about
-  - title: Other Page
-    url: /other-page
-  - title: External Page
-    url: http://coletownsend.com
-    external: true
+```
+url: # should be empty
+baseurl:  # should be empty
 ```
 
-## Other Stuff
+**You should only deploy WITHOUT THE `user` flag. If you accidentally deploy to master, then [merge back into master what you have in source](https://stackoverflow.com/questions/2763006/make-the-current-git-branch-a-master-branch).**
 
-The rest is just your average Jekyll config settings. Nothing too crazy here...
+### Usage
 
-### _includes
+Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
 
-For the most part you can leave these as is since the author/owner details are pulled from `_config.yml`. That said you'll probably want to customize the copyright stuff in `footer.html` to your liking.
+## Features
 
-### Adding Posts and Pages
+#### Ergonomic Publications
 
-There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). 
+Your publications page is generated automatically from your BibTex bibliography.
+Simply edit `_bibliography/papers.bib`.
+You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-### Feature Images
+Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 
-A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. 
+#### Collections
+This Jekyll theme implements collections to let you break up your work into categories.
+The example is divided into news and projects, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
 
-``` yaml
-image:
-  feature: feature-image-filename.jpg
-```
+> To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
 
-This makes the assumption that the feature image is in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so.
-You can "serve" images responsively with retina.js. All you need to do is have a file with @2x before the file type. That should be placed in the *images* folder. You literally don't have to do anything other than that. 2 copies. One is linked. That's it.
-Ex:
-`cool-photo@2x.jpg` 
+Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the projects layout.
+The projects layout overlays a descriptive hoverover on a background image.
+If no image is provided, the square is auto-filled with the chosen theme color.
+Thumbnail sizing is not necessary, as the grid crops images perfectly.
 
-**There is a default feature image that will show up for and posts. It isn't retina or anything. It's just there in case you want one but forget <3*
+#### Theming
+Six beautiful theme colors have been selected to choose from.
+The default is purple, but quickly change it by editing `$theme-color` variable in the `_sass/variables.scss` file (line 72).
+Other color variables are listed there, as well.
 
-#### If you don't want a feature image
-…just say so in the front-matter. Go to your-post-name.md and make sure it has this guy up top.
-```
-layout: post-no-feature
-```
+#### Photos
+Photo formatting is made simple using rows of a 3-column system.
+Make photos 1/3, 2/3, or full width.
+Easily create beautiful grids within your blog posts and projects pages:
 
-### Categories
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
+    <img src="assets/img/photos-screenshot.png" width="75%">
+  </a>
+</p>
 
-In the sample `_posts` folder you may have noticed `category: articles` in the front matter. I like keeping all posts grouped in the same folder. If you decide to rename or add categories you will need to modify the permalink in `articles.md` along with the filename (if renaming).
+#### Code Highlighting
+This theme implements Jekyll's built in code syntax highlighting with Pygments.
+Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to delineate your code:
 
-For example. Say you want to group all your posts under `blog/` instead of `articles/`. In your post add `category: blog` to the front matter, rename or duplicate `articles.md` to `blog.md` and change the permalink in that file to `permalink: /blog/index.html`.
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/blog/2015/code/">
+    <img src="assets/img/code-screenshot.png" width="75%">
+  </a>
+</p>
 
-If done correctly `/blog` should be a page listing all the site's posts.
+## Contributing
 
+Feel free to contribute new features and theme improvements by sending a pull request.
+Style improvements and bug fixes are especially welcome.
 
 ## License
 
-This is free to use, fork, do whatever you want. You *cannot* sell this design though. You don't need to link me to it, but please contact me if you intend to market this theme. I am releasing premium versions of this design for select CMS's. 
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
