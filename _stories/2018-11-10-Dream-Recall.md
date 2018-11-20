@@ -11,13 +11,16 @@ date: 2018-11-04
 
 "Hurry! Get in!" I shouted at my partner. 
 
-I quickly settled into the cockpit of a large mechanized robot. About forty feet away in the underground hangar, my partner, a uniformed man in a dark green military suit, leapt towards my mech as an alarm started wailing. 
+I quickly settled into the cockpit of a large mechanized robot (a mech) about forty feet away in the underground hangar. My partner, a stocky man in a dark green military uniform, leapt towards my mech as an alarm started wailing. 
 
-The bay doors cracked open, though I knew that there would be a wall of guards outside it in a convoluted mess of a hallways. I had a map in my head, though, and was optimistic that I could navigate the football field's worth of offices, men with guns, and granite walls between us and the surface. 
+The bay doors cracked open at the far end of the hangar, though I knew that a wall of guards were about to rush in from a convoluted mess of a hallwaysi outside. Still, I maintained my optimism that I could navigate the football field's worth of offices, men with guns, and granite walls between us and the surface. 
 
-A few bullets whizzed by my head and clanged and ricochetted off the bulletproof glass of my still open windshield door, the visor that was my mech's "eyes". My partner managed to climb up and into the cockpit, just as I started the mech's power source. The automated visor slowly whirred down to closed position, and I powered up the weapons system. 
+A few bullets whizzed by my head and ricochetted off the bulletproof glass of the still opened windshield door, which served as my mech's visor. Moments later, my partner managed to climb into the cockpit just as I started the mech's diesel engines. The automated visor slowly whirred down to closed position, and I began a brisk trot directly toward the hangar entrance.
 
-More ricochettes off the mech suit. Our robot turned and dashed towards the hanger doors...*toward the soldiers* that had shot at us.
+Our robot dashed towards the doors, and the hail of bullets became much denser. The 
 
+We'd made it! I received. Quarantine had been breached, there were two escaped conficts.
 
-We'd made it!
+---
+
+And then I woke up.
